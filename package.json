@@ -34,6 +34,7 @@
     "waterline": "^0.12.1"
   },
   "scripts": {
+    "preinstall": "npm i -g sails",
     "start": "node app.js",
     "debug": "node debug app.js"
   },

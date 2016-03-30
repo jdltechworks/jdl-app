@@ -60,9 +60,7 @@ module.exports = {
    * to 80 (http://) or 443 (https://) if you have an SSL certificate        *
    ***************************************************************************/
   
-  host: 'localhost',
-
-  explicitHost: process.env.OPENSHIFT_NODEJS_IP,
+  host: process.env.OPENSHIFT_NODEJS_IP,
 
   port: process.env.OPENSHIFT_NODEJS_PORT || 8000,
   
